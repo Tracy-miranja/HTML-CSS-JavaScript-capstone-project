@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-nav {
+    background-color: black;
+}
+
+.small-nav__menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.top-nav ul li {
+    list-style: none;
+    margin-left: 15px;
+    font-family: 'lato';
+    color: #fff;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-lnk {
+    display: flex;
+    margin-top: 0;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.main-nav ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.campaign {
+    margin-top: 0;
+    border: 5px solid red;
+    height: fit-content;
+    margin-left: 100px;
+    align-items: center;
+}
