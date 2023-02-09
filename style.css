@@ -32,7 +32,7 @@
 
 .program__title h2 {
   margin: 0;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .program__content {
@@ -47,7 +47,7 @@
 .top-nav ul li {
   list-style: none;
   margin-left: 15px;
-  ;
+  
   color: #fff;
 }
 
@@ -95,7 +95,7 @@
 
 .campaign {
   margin-top: 5px;
-  border: 4px solid #EC5242;
+  border: 4px solid #ec5242;
   height: fit-content;
   margin-left: 100px;
   align-items: center;
@@ -110,7 +110,7 @@
 }
 
 .greeting {
-  color: #EC5242;
+  color: #ec5242;
   margin: 0;
   font-weight: 10;
   font-size: 36px;
@@ -239,7 +239,7 @@ button {
 }
 
 .bg-text h3 {
-  color: #EC5242;
+  color: #ec5242;
   margin: 10px;
   font-size: 16px;
   font-style: italic;
@@ -415,7 +415,7 @@ button {
 
   .buttn {
     color: white;
-    background-color: #EC5242;
+    background-color: #ec5242;
     border: none;
     padding: 25px 40px;
   }
