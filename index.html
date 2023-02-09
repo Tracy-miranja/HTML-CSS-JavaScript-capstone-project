@@ -17,6 +17,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@400;500;600;800&display=swap"
       rel="stylesheet"
@@ -26,8 +28,8 @@
     <header class="header">
       <nav class="top-nav">
         <ul class="small-nav__menu">
-          <li><img src="img/social/facebook.svg" /></li>
-          <li><img src="img/social/twitter.svg" /></li>
+          <li><img src="./images/facebook.svg" /></li>
+          <li class="twit"><img src="./images/twitter.svg" /></li>
           <li>Logout</li>
           <li>Mypage</li>
           <li>Korean</li>
@@ -35,22 +37,119 @@
       </nav>
       <nav class="nav-link">
         <div class="logo">
-          <a href="index.html"><img src="#" alt="consert" /></a>
+          <a href="index.html"><img src="./images/MUSIC.jpg" alt="consert" class="log"/></a>
         </div>
         <div class="main-nav">
           <ul class="main-lnk">
-            <li><a href="#">About</a></li>
+            <li><a href="about.html" class="selected">About</a></li>
             <li><a href="#">Program</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Sponser</a></li>
             <li><a href="#">News</a></li>
           </ul>
           <div class="campaign">
-            Campaing
+             CC Campaing
           </div>
         </div>
         </div>
       </nav>
     </header>
+    <nav class="navbar">
+          <div class="hamburger_1">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Program</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sponser</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">News</a>
+            </li>
+          </ul>
+        </nav>
+    <section class="banner">
+     <div class="content">
+        <h2 class="greeting">"Hello! Tech world"</h2>
+        <h1 class="bg-text2">LIVE MUSIC AND INFORMATION <br> COMMUNICATION OPEN CONCERT <br>2023</h1>
+        <p class="detail">An open Music and IT consert for all students and specialist in it field,<br class="break"> to gather and come up with new solution
+            to improve in the it section and to find solution in<br> other underlying factors and also have fun live  music from different artist.
+        </p>
+         <h3 class="time">2023.10.19(Mon) ~ 20(FRI)</h3>
+                <p class="place">@ Nairobi city hall, Hailesialese rd, Kenya</p>
+     </div>
+    </section>
+    <section class="programs">
+      <div class="title">
+        <div class="context" style="height: 5px;">
+        <h2>Main Program</h2>
+        <hr style="width: 8%; height: 3px; background-color: brown;margin-top: -15px; border: maroon;">
+        </div>
+      </div>
+      <div class="grid-container">
+      <div class="grid1"> 
+        <div class="program__image"><img src="./images/exhibition.svg"></div>
+        <div class="program__title"><h2 class="t-orange">Exhibition</h2></div>
+        <div class="program__content"><p>Outline how the current world is changing, Listen to live music from our guest artist.</p></div>
+      </div>
+      <div class="grid1"><div class="program__image"><img src="./images/forum.svg"></div>
+        <div class="program__title"><h2 class="t-orange">forum</h2></div>
+        <div class="program__content"><p></p>Listen to the invited speakers from various field about the the concert, music performance.</p></div>
+      </div>
+      <div class="grid1"><div class="program__image"><img src="./images/ignite.svg"></div>
+        <div class="program__title"><h2 class="t-orange">Ignite</h2></div>
+        <div class="program__content"><p></p>A talk with the specialist in tech about how tech has improved and whats going to be in near future</p></div>
+      </div>
+      <div class="grid1"><div class="program__image"><img src="./images/lecture.svg"></div>
+        <div class="program__title"><h2 class="t-orange">Lecture</h2></div>
+        <div class="program__content"><p></p>Listen to the speakers and students who are talented in music and tech from various part of the world on how to handle hard task.</p></div>
+      </div>
+      <div class="grid1"><div class="program__image"><img src="./images/workshop.svg"></div>
+        <div class="program__title"><h2 class="t-orange">workshop</h2></div>
+        <div class="program__content"><p></p>Share ideas, showcase some of works from expert and Live music performance for the rest of the day.</p></div>
+      </div>
+      </div>
+      <span class="desktop-only"><a href="">See the whole program</a></span>
+      <div class="f-column">
+                <button class="buttn">
+                    <span class="mobile-only">Join OS Software Conference 2023</span>
+                </button>
+            </div>
+       </section>
+       
+       <section class="featured-speakers-list">
+        <div class="context" style="height: 5px; color: black;">
+        <h2>Featured Speakers</h2>
+        <hr style="width: 8%; height: 3px; background-color: brown;margin-top: -15px; border: maroon;">
+        </div>
+        <div id="bigDiv" style="display: flex;color: black;" class="bigDiv">
+         </div>
+        </section>
+       <section class="partners" style="padding: 10px;">
+        <div class="partn" style="text-align: center; color: aliceblue;">
+          <h2>Partners</h2>
+         <hr style="width: 5%; height: 2px; background-color: brown;margin-top: -15px; border: maroon;">
+        </div>
+        <div class="log-partn" style="display: flex;flex-direction: row; gap: 29px;justify-content: center;align-items: center;padding: 20px;"> 
+          <div><img src="./images/mozilla.svg" style="width: 6vw;height: fit-content;"></div>
+          <div><img src="./images/google.svg" style="width: 6vw;height: fit-content;"></div>
+          <div><img src="./images/naver.svg" style="width: 6vw;height: fit-content;"></div>
+          <div><img src="./images/daumkakao.svg" style="width: 6vw;height: fit-content;"></div>
+          <div><img src="./images/airbnb.svg" style="width: 6vw;height: fit-content;"></div>
+        </div>
+       </section>
+       <section class="footer">
+        <div class="name"><img src="./images/MUSIC.jpg"><h1>Creative<br> Music Concert</h1></div>
+        <div class="sig"><p>2023 Creative live concert. Right Reserved </p></div>
+       </section>
+       <script src="feature-list.js"></script>
+        <script src="menu.js"></script>
   </body>
 </html>
