@@ -47,7 +47,7 @@ One attachment
  
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [<a href="https://tracy-miranja.github.io/mobile-version-/">Clich here to see Live Demo]
+- [<a href="https://tracy-miranja.github.io/HTML-CSS-JavaScript-capstone-project/">Clich here to see Live Demo]
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -109,15 +109,22 @@ To run the project, open index.html in your text editor,right-click and open wit
 - [ ] **Desktop design**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
+
+<!-- Key FEATURES -->
+
+- [ ] **Homepage**
+- [ ] **About Page**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
- 
+
 ## 🤝 Contributing <a name="contributing"></a>
- 
+
 Contributions, issues, and feature requests are welcome!
- 
+
 Feel free to check the [issues page](../../issues/).
- 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <!-- SUPPORT -->
@@ -141,7 +148,7 @@ i would also like to thank Cindy Shin in Behance for the ui/ux design in behance
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/HTML-CSS-JavaScript-capstone-project/blob/add-license-1/LICENCE licensed.
+This project is [MIT](https://github.com/Tracy-miranja/HTML-CSS-JavaScript-capstone-project/compare/main...add-license-1 licensed.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md
