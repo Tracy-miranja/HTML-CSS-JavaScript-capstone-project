@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -28,7 +32,7 @@
 
 .program__title h2 {
   margin: 0;
-  color: orangered;
+  color: #EC5242;
 }
 
 .program__content {
@@ -43,7 +47,7 @@
 .top-nav ul li {
   list-style: none;
   margin-left: 15px;
-  font-family: 'lato', sans-serif;
+  ;
   color: #fff;
 }
 
@@ -87,12 +91,11 @@
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
 }
 
 .campaign {
   margin-top: 5px;
-  border: 4px solid red;
+  border: 4px solid #EC5242;
   height: fit-content;
   margin-left: 100px;
   align-items: center;
@@ -107,16 +110,14 @@
 }
 
 .greeting {
-  color: red;
+  color: #EC5242;
   margin: 0;
   font-weight: 10;
   font-size: 36px;
-  font-family: "Lato", sans-serif;
 }
 
 .bg-text2 {
   font-weight: 800;
-  font-family: 'Lato', sans-serif;
   font-size: 40px;
   margin: 0;
   background: url(./images/new.jpg) no-repeat center center;
@@ -133,14 +134,12 @@
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  font-family: 'Lato', sans-serif;
   margin-top: 4px;
 }
 
 .time {
   margin: 2px;
   font-weight: 800;
-  font-family: 'Lato', sans-serif;
   font-size: 26px;
 }
 
@@ -159,7 +158,6 @@
 }
 
 .detail {
-  font-family: 'Lato', sans-serif;
   margin-left: 20px;
   padding: 5px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -214,16 +212,10 @@ button {
 .featured-speakers-list {
   padding: 5%;
   height: auto;
-
-  /* display: flex; */
-
-  /* height: 80vh; */
 }
 
 .bigDiv {
   display: flex;
-
-  /* flex-direction: row; */
   flex-wrap: wrap;
   gap: 20px;
   padding-top: 69px;
@@ -237,11 +229,9 @@ button {
 .contain {
   width: 42vw;
   display: flex;
-  font-family: 'Lato', sans-serif;
 }
 
 .bg-text h2 {
-  /* padding: 15px; */
   margin: 10px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -249,18 +239,16 @@ button {
 }
 
 .bg-text h3 {
-  color: red;
+  color: #EC5242;
   margin: 10px;
   font-size: 16px;
   font-style: italic;
-  font-family: 'Lato', sans-serif;
   text-align: start;
 }
 
 .bg-text p {
   font-size: 14px;
   margin: 10px;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: start;
 }
@@ -427,7 +415,7 @@ button {
 
   .buttn {
     color: white;
-    background-color: orangered;
+    background-color: #EC5242;
     border: none;
     padding: 25px 40px;
   }
@@ -509,8 +497,6 @@ button {
   .contain {
     display: flex;
     width: 100%;
-
-    /* margin: 20px 0 35px 0; */
   }
 
   .trans-bg {

@@ -148,7 +148,7 @@ i would also like to thank Cindy Shin in Behance for the ui/ux design in behance
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/HTML-CSS-JavaScript-capstone-project/compare/main...add-license-1 licensed.
+This project is [MIT](https://github.com/Tracy-miranja/HTML-CSS-JavaScript-capstone-project/blob/add-license-1/LICENCE.md licensed.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md
